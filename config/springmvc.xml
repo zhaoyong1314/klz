@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:mvc="http://www.springframework.org/schema/mvc"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+        http://www.springframework.org/schema/mvc 
+        http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+
+	<!-- 使Spring更准确的自动检测组件Controller -->
+	<context:component-scan base-package="com.angel.queen.controller"/>
+	<!-- 两者要其一，即可满足普通需求 -->
+	<context:annotation-config/>
+	<!-- 配置静态资源访问问题，必须开启Annotation注解模式 -->
+	<mvc:annotation-driven />
+	<!-- 交给springmvc 自己的内部servlet 统一做处理 -->
+	<mvc:resources location="/resources/" mapping="/resources/**"/>
+	<!--<mvc:default-servlet-handler/>-->
+	<!-- 视图解析器 -->
+    <bean id="viewResolver"
+        class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"></property>
+        <property name="prefix" value="/WEB-INF/page/"></property>
+        <property name="suffix" value=".jsp"></property>
+    </bean>
+	
+    <!-- 异常解析器 -->
+    <bean id="simpleMappingExceptionResolver"
+        class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+        <!-- 默认的异常处理页面 -->
+		<property name="defaultErrorView">
+			<value>error</value>
+		</property>  
+    </bean>
+</beans>
