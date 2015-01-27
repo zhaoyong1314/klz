@@ -1,0 +1,249 @@
+.container .slide{
+    width: 990px;
+    margin: 0 auto;
+    height: 288px;
+    position: relative;
+    overflow:hidden;
+}
+.slide .PptImg{
+    position:absolute;
+    height: 288px;
+}
+.PptImg li {
+    float:left;
+    width:990px;
+    height:288px;
+    overflow: hidden;
+}
+
+.LoginBox{
+    position:absolute;
+    width:280px;
+    right: 16px;
+    background-color: #671329;
+}
+.LoginBox .LoginIpt{
+    width:260px;
+    margin:0 auto;
+    margin-bottom: 8px;
+}
+.LoginIpt p {
+    font-family: "宋体";
+    font-size: 14px;
+    padding-left: 10px;
+    line-height: 30px;
+    color: #696969;
+}
+.LoginIpt span.a1 {
+    width: 14px;
+    display: inline-block;
+}
+.LoginIpt input{
+    width: 180px;
+    border: none;
+    border: 0;
+    font-family: "宋体";
+    font-size: 14px;
+    color: #696969;
+    vertical-align: -1px;
+}
+.LoginBtn{
+    margin: 0 auto;
+    width: 260px;
+    margin-bottom: 8px;
+}
+.LoginBtn a {
+    width: 260px;
+    height: 36px;
+    background-color: red;
+    display: inline-block;
+}
+.LoginTxt {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 260px;
+    line-height: 18px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #817977;
+}
+.LoginTxt span {
+    padding-left: 10px;
+    background: url(../images/index/Bgsprit.png) no-repeat 0 -161px;
+}
+.LRegLink {
+    color: #f8b500;
+    font-size: 12px;
+}
+.LoginTxt span a{
+    text-decoration: none;
+}
+.LoginTxt span a:hover{
+    text-decoration: underline;
+}
+.w12l{
+    color:#ffffff;
+}
+.w12l:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+.LoginTips {
+    margin: 0 auto;
+    width: 260px;
+}
+.LoginTips p {
+    padding-left: 15px;
+    line-height: 22px;
+    background: url(../images/index/Bgsprit.png) 0 -187px;
+}
+
+/*mainBox*/
+.mainBox{
+    width:990px;
+    position:relative;
+    margin: 0 auto;
+    margin-top:10px;
+}
+
+/* leftBox */
+.leftBox{
+    width: 750px;
+    float: left;
+}
+.leftBox h1{
+    height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+    background: #f3f3f3;
+    font-weight: bold;
+    font-size: 14px;
+    border-bottom: 1px solid #dddddd;
+    position: relative;
+}
+.leftBox h1 label {
+    font-size: 12px;
+    font-weight: normal;
+    right: 10px;
+    position: absolute;
+}
+.leftBox h1 label a {
+    color: #4a4a4a;
+    text-decoration: none;
+}
+.leftBox  .tyMode{
+    margin-bottom: 10px;
+    width: 748px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.tyMode li{
+    float: left;
+    width: 170px;
+    height: 154px;
+    margin-left: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #FFF;
+    position: relative;
+}
+.tyMode li p{
+    text-align: center;
+    margin-bottom: 6px;
+}
+.tyMode li p.img{
+    border: #fff 1px solid;
+}
+
+/* rightBox */
+.rightBox{
+    width: 230px;
+    float: right;
+    margin-bottom: 10px;
+}
+.rightBox .news{
+    padding: 2px 10px 10px 10px;
+    width: 208px;
+    border: 1px solid #dddddd;
+    background: #FFFFFF;
+}
+.news p.title{
+    line-height: 32px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dddddd;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+}
+.news p.title label{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.news  ul{
+    width:208px;
+    overflow: hidden;
+}
+.news li{
+    width:208px;
+    float:left;
+    line-height: 24px;
+}
+
+/*add*/
+.adBox{
+    height: 90px;
+    overflow: hidden;
+    position:relative;
+    border:solid red 1px;
+    margin-bottom: 10px;
+}
+.clear{
+    clear:both;
+}
+
+/*合作商家*/
+.Hzsj{
+    padding: 2px 10px 10px 10px;
+    width: 968px;
+    border: 1px solid #dddddd;
+    background: #fff;
+}
+.Hzsj h1{
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.Hzlist{
+    margin-bottom: 8px;
+    width: 968px;
+    padding-bottom: 14px;
+    border-bottom: 1px dashed #dddddd;
+    overflow: hidden;
+}
+.Hzlist li{
+    float: left;
+    width: 105px;
+    padding-right: 16px;
+}
+.Hzlist li img{
+    border: 1px solid #dddddd;
+    width: 106px;
+    height: 50px;
+}
+.Hzlist li.last{
+    padding-right: 0px;
+}
+.Yqlist{
+    width:968px;
+    overflow: hidden;
+}
+.Yqlist li {
+    float: left;
+    padding-right: 14px;
+    line-height: 22px;
+}

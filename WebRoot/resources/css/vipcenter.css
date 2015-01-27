@@ -1,0 +1,257 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+ol, ul, li {
+    list-style-type: none;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+body{
+    color: #4a4a4a;
+    font-size: 12px;
+    font-family: tahoma,arial,"宋体";
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 12px;
+    font-family: tahoma,arial,"宋体";
+}
+.mainBox{
+    margin: 0 auto;
+    width: 990px;
+    margin-top: 10px;
+    position: relative;
+}
+.mainBox .topSpeak{
+    padding: 0 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dddddd;
+    width: 968px;
+    height: 30px;
+    line-height: 30px;
+}
+.topSpeak .sIco{
+    float:left;
+    margin-top: 7px;
+}
+.topSpeak .topText{
+    padding: 0 10px;
+    width: 916px;
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+}
+.topText ul{
+    float: left;
+    margin: 0 auto;
+    margin-top: 3px;
+    height:30px;
+    list-style: none;
+}
+.topText ul li{
+    float: left;
+    margin-right: 20px;
+}
+.ad{
+    margin-bottom: 10px;
+}
+.userMenu{
+    float:left;
+    background:#fff;
+    width:228px;
+    border: solid 1px #dddddd;
+}
+.userMenu .userName{
+    height:44px;
+    padding:20px 10px;
+}
+.userMenu .pic{
+    width:40px;
+    height: 40px;
+    padding: 1px;
+    border:1px #dddddd solid;
+    float:left;
+    margin-right: 10px;
+}
+.userName p{
+    line-height: 18px;
+}
+.userName a{
+    color: #e10000;
+}
+.menu dt{
+    height:36px;
+    line-height: 36px;
+    padding-left: 32px;
+    font-weight: bold;
+    font-size:14px;
+    position:relative;
+}
+.menu_gk {
+    background-position: 0 -46px;
+}
+.menu dd{
+    padding:14px 10px;
+}
+
+.menu  ul{
+    margin: 1px 0;
+    width:208px;
+    line-height: 24px;
+    overflow: hidden;
+}
+.menu ul li{
+    width:50%;
+    float:left;
+}
+.menu ul a{
+    color: #606060;
+    text-decoration: none;
+    display: block;
+    height: 24px;
+    padding-left: 22px;
+}
+.userIndex{
+    float:right;
+    background:#fff;
+    width:730px;
+    padding:10px;
+    min-height: 634px;
+}
+.userIndex .userHelloInfo{
+    background: #fee9c7;
+    height: 185px;
+    border: 1px solid #edbd3d;
+    padding:3px;
+    margin-bottom: 20px;
+}
+.userHelloInfo .infoBg{
+    width: 682px;
+    height: 157px;
+    background: #fffdf4;
+    padding: 8px 20px 20px 20px;
+}
+.userHelloInfo .title{
+    height:34px;
+    border-bottom: 1px dotted #ffd591;
+    margin-bottom: 14px;
+}
+.userHelloInfo .title h2{
+    line-height: 34px;
+    font-size:16px;
+    font-weight: bold;
+    color:#e10000;
+}
+.userHelloInfo .infoBg p{
+    height: 30px;
+}
+.userHelloInfo .infoBg li{
+    width:227px;
+    float: left;
+    height:25px;
+
+}
+.userHelloInfo .infoBg li strong{
+    color: #e10000;
+    font-family: Verdana;
+    font-size: 14px;
+}
+.userNotice{
+    margin-bottom: 10px;
+    border: 1px solid #dddddd;
+    border-top: 2px solid #ed0000;
+    background: #FFFFFF;
+}
+.userNotice h1{
+    height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+    background: #f3f3f3;
+    font-weight: bold;
+    font-size: 14px;
+    border-bottom: 1px solid #dddddd;
+    position: relative;
+}
+.userNotice  h1 label{
+    font-size: 12px;
+    font-weight: normal;
+    right: 10px;
+    position: absolute;
+}
+.userNotice ul{
+    padding:10px;
+
+
+}
+.userNotice ul li{
+    /*float: left;*/
+    width:708px;
+    overflow:hidden;
+    border-bottom: #dddddd 1px dashed;
+    height: 32px;
+    line-height: 32px;
+    position: relative;
+}
+.userNotice ul li .time{
+    position: absolute;
+    display: block;
+    width: 158px;
+    right: 0px;
+    bottom: 0px;
+    font-size: 11px;
+    line-height: 32px;
+    color: #696969;
+    text-align: right;
+}
+.userHelp{
+    width: 728px;
+}
+.userHelp h1{
+    height: 32px;
+    line-height: 32px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.userHelp h1 label{
+    font-size: 12px;
+    font-weight: normal;
+    right: 7px;
+    position: absolute;
+}
+.user_help_Q{
+    width: 708px;
+    height: 23px;
+    padding: 0px 10px;
+    padding-top: 7px;
+    background: #EBEBEB;
+    margin-bottom: 16px;
+    position: relative;
+}
+.user_help_A{
+    height: auto;
+    min-height: 20px;
+    _heigh: 20px;
+    padding: 0px 10px 20px 10px;
+    position: relative;
+    display: none;
+}
+
+.help_A {
+    background-position: 0 -65px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+.user_help_A .help_Atext {
+    width: 680px;
+    line-height: 22px;
+    padding-left: 25px;
+}
+.help_Q {
+    background-position: 0 -32px;
+}

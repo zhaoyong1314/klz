@@ -1,0 +1,156 @@
+.mainBox .leftBox{
+    float:left;
+    width:680px;
+}
+.dmBox{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #ED0000 #DDDDDD #DDDDDD;
+    border-image: none;
+    border-right: 1px solid #DDDDDD;
+    border-style: solid;
+    border-width: 2px 1px 1px;
+    margin-bottom: 10px;
+    width: 678px;
+    position:relative;
+}
+
+.dmopt {
+    font-size: 14px;
+    height: 33px;
+    position: relative;
+}
+
+.dmBox .dmNav{
+    background: url("../images/dama/Dmbox_title.gif") repeat-x scroll 0 0 transparent;
+    font-size: 14px;
+    height: 33px;
+    position: relative;
+}
+
+.dmopt_on {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    border-right: 1px solid #DDDDDD;
+    display: inline-block;
+    float: left;
+    font-weight: bold;
+    height: 24px;
+    padding: 8px 15px 0;
+    width: 60px;
+}
+.dmopt_un {
+    background: none repeat scroll 0 0 #F3F3F3;
+    border-bottom: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    display: inline-block;
+    float: left;
+    height: 24px;
+    padding: 8px 15px 0;
+}
+.dmopt_more {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+.r12l {
+    color: #e10000;
+    font-size: 12px;
+}
+.dmTab_title{
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.dmTab_title .dmHead{
+    font-size: 14px;
+    color: #E10000;
+    height: 22px;
+    line-height: 22px;
+}
+.dmHead span{
+    color: #696969;
+    font-size: 12px;
+}
+.dmTab_title .changeIco{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.changeIco .unamz{
+    background: url("../images/dama/changeico.png") 0 0;
+    width: 52px;
+    height: 22px;
+    padding-left: 7px;
+    display: inline-block;
+    line-height: 21px;
+}
+.dmlist {
+    margin: 10px auto;
+    margin-bottom: 30px;
+}
+.dmlist td{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #fff;
+}
+.rightBox{
+    float:right;
+    width:300px;
+}
+.rightBox .dmNews{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    margin-bottom: 10px;
+    padding: 4px 15px 10px;
+    width: 268px;
+}
+.dmNews p.title{
+    border-bottom: 1px solid #DDDDDD;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 32px;
+    margin-bottom: 4px;
+    position: relative;
+}
+.dmNews ul{
+    overflow:hidden;
+}
+.dmNews li{
+    float:left;
+    line-height: 26px;
+    width:270px;
+}
+.dmPh{
+    margin-bottom: 10px;
+    width: 300px;
+}
+.dmPh p.title{
+    background: none repeat scroll 0 0 #F3F3F3;
+    border-color: #DDDDDD;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    color: #E10000;
+    font-size: 14px;
+    font-weight: bold;
+    height: 33px;
+    line-height: 32px;
+    padding: 0 15px;
+    width: 268px;
+}
+.dmphb{
+    height: 26px;
+    line-height: 26px;
+    width: 300px;
+}
+.dmphb td{
+    text-align: center;
+    background: #fff;
+}
+
+
+
+

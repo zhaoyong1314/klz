@@ -1,0 +1,71 @@
+.mainBox{
+    margin: 0 auto;
+    width: 990px;
+    margin-top: 10px;
+    position: relative;
+}
+.regBox{
+    margin: 0 auto;
+    width: 740px;
+    padding: 16px 30px 24px 30px;
+    background:#FFFFFF;
+    border: 1px solid #dddddd;
+}
+.regBox p.title{
+    margin-bottom: 4px;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: "微软雅黑","黑体";
+    color: #e18961;
+    font-weight: 500;
+    border-bottom: 1px solid #dddddd;
+    position: relative;
+}
+
+.regBox p.title label{
+    font-size: 12px;
+    font-weight: normal;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color: #878787;
+    font-size: 14px;
+}
+.loginList{
+    width:340px;
+    margin: 40px auto;
+}
+
+.loginList .password{
+    margin-top: 15px;
+}
+.inputcontent{
+    width:240px;
+    height: 20px;
+}
+.login{
+    width:340px;
+    margin-top: 15px;
+}
+.hidden{
+    visibility: hidden;
+}
+.login .log{
+    width: 244px;
+    height: 40px;
+    background-color: #e14777;
+    border-style: hidden;
+    font-size: 14px;
+}
+.regCenter{
+    margin-top:15px;
+}
+.register,.forget{
+    font-size: 12px;
+    position: relative;
+    left:70px;
+    margin-right: 3px;
+}
+.register a,.forget a{
+    text-decoration: none;
+}
